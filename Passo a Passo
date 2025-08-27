@@ -1,0 +1,13 @@
+1- Baixe o Python 3
+
+2- Abra o Prompt de Comando (CMD) e instale o PyInstaller:
+pip install pyinstaller
+
+3- Abra CMD no diretório do script e rode:
+pyinstaller --onefile --noconsole consulta_dominios.py
+
+4- Após o PyInstaller terminar, ele cria duas pastas:
+build/ → arquivos temporários da compilação
+dist/ → aqui estará seu executável: dist\consulta_dominios.exe
+
+5- Copie dominios.txt para a mesma pasta que o .exe se quiser usar domínios personalizados.
