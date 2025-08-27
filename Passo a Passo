@@ -4,7 +4,7 @@
 pip install pyinstaller
 
 3- Abra CMD no diretório do script e rode:
-pyinstaller --onefile --noconsole consulta_dominios.py
+python -m PyInstaller --onefile --windowed consulta_dominios.py
 
 4- Após o PyInstaller terminar, ele cria duas pastas:
 build/ → arquivos temporários da compilação
